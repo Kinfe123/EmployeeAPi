@@ -8,10 +8,10 @@ import getEmployees from "../controllers/getEmployees.js";
 const router = express.Router()
 router.get('/', getEmployees)
 
-// // GET a single workout
+
 router.get('/:id', getSingleEmployee)
 
-// POST a new workout
+
 router.post('/', createEmployee)
 
 
